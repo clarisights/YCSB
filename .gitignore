@@ -1,5 +1,6 @@
 # ignore compiled byte code
 target
+/**/*.log
 
 # ignore output files from testing
 output*

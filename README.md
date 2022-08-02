@@ -73,8 +73,8 @@ such as these](https://github.com/brianfrankcooper/YCSB/issues/406).
 
 To build the full distribution, with all database bindings:
 
-    mvn clean package
+    ./mvnw clean package
 
 To build a single database binding:
 
-    mvn -pl mongodb-binding -am clean package
+    ./mvnw -pl site.ycsb:ignite-binding -am clean package
